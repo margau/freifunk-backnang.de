@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		padding-top: 3.5em;
+	 /*	padding-top: 3.5em; */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2024,13 +2024,13 @@ input, select, textarea {
 	#nav {
 		background-color: #282828;
 		text-align: center;
-		position: fixed;
+		position: sticky;
 		left: 0;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
 		cursor: default;
-		height: 3.5em;
+		/* height: 3.5em; */
 		line-height: 3.5em;
 	}
 
@@ -2229,7 +2229,7 @@ input, select, textarea {
 		/* Basic */
 
 			body {
-				padding-top: 44px;
+				/* padding-top: 44px; */
 			}
 
 			body, input, textarea, select {
@@ -2374,7 +2374,7 @@ input, select, textarea {
 		/* Nav */
 
 			#nav {
-				height: 44px;
+			/* 	height: 44px;*/
 				line-height: 44px;
 			}
 
