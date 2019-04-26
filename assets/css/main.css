@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("font-awesome.min.css");
+@import url("font-opensans.min.css");
 
 /*
 	Miniport by HTML5 UP
@@ -82,20 +82,16 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-	 /*	padding-top: 3.5em; */
+	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		-moz-animation: none !important;
+		-webkit-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-ms-transition: none !important;
+		transition: none !important;
 	}
-
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
 
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
@@ -123,7 +119,7 @@ input, select, textarea {
 		}
 
 	b, strong {
-		font-weight: 600;
+		font-weight: 700;
 		color: #3e3e3e;
 	}
 
@@ -1598,7 +1594,7 @@ input, select, textarea {
 			table.default th {
 				text-align: left;
 				padding: 0.5em 1em 0.5em 1em;
-				font-weight: 600;
+				font-weight: 700;
 				margin: 0 0 1em 0;
 			}
 
@@ -1665,10 +1661,10 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		-moz-transition: background-color .2s ease-in-out;
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
@@ -1796,10 +1792,10 @@ input, select, textarea {
 			}
 
 				ul.social li a:before {
-					background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-					background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-					background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-					background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+					background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+					background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+					background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+					background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 					-moz-transition: background-color .2s ease-in-out;
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
@@ -1973,10 +1969,8 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
-		text-align: center;
 	}
 
 		.wrapper.style1 {
@@ -2055,7 +2049,7 @@ input, select, textarea {
 			color: #fff;
 			text-decoration: none;
 			outline: 0;
-			font-weight: 600;
+			font-weight: 700;
 			border-radius: 8px;
 			color: #fff;
 			height: 2.5em;
@@ -2183,7 +2177,6 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 5em 0 5em 0;
-				text-align: center;
 			}
 
 				.wrapper.style4 .row-special {
@@ -2227,10 +2220,6 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
-
-			body {
-				/* padding-top: 44px; */
-			}
 
 			body, input, textarea, select {
 				line-height: 1.75em;
@@ -2368,7 +2357,6 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 3em 0;
-				text-align: center;
 			}
 
 		/* Nav */
@@ -2428,4 +2416,33 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
+	}
+
+
+	/* Additional CSS tags */
+
+	@media screen and (max-width: 980px) {
+		.rimg .image {
+			overflow: hidden;
+			max-height: 20em;
+		}
+
+		.rimg .image img {
+
+			margin-top: -25%;
+		}
+	}
+
+	@media screen and (min-width: 981px) {
+		.rimg .image {
+			border-radius: 100%;
+			width: 20em;
+			height: 20em;
+			margin: 0;
+		}
+
+		.rimg .image img {
+
+			border-radius: 100%;
+		}
 	}
