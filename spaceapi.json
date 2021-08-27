@@ -1,0 +1,26 @@
+{
+    "api": "0.13",
+    "space": "Chaostreff Backnang",
+    "logo": null,
+    "url": "https://digitales-backnang.de/",
+    "location": {
+        "address": "dasWohnzimmer, Willy-Brandt-Platz 2, 71522 Backnang, Germany",
+        "lat": 48.94862,
+        "lon": 9.42957
+    },
+    "contact": {
+        "issue_mail": "aW5mb0BmcmVpZnVuay1iYWNrbmFuZy5kZQ==",
+        "phone": "+49 221 59619 2825",
+        "ml": "backnang@freifunk-stuttgart.de"
+    },
+    "issue_report_channels": ["issue_mail"],
+    "state": {"open": null},
+    "projects": ["https://freifunk-backnang.de/"],
+    "feeds": {
+        "calendar": {
+            "type": "ical",
+            "url": "https://cloud.hacknang.de/remote.php/dav/public-calendars/nZTMSHpd29ZRpAr6/?export"
+        }
+    },
+    "ext_ccc": "chaostreff"
+}

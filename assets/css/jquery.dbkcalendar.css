@@ -1,0 +1,4 @@
+table.dbk tr {border: 1px solid #ededed}
+table.dbk th {background: #ededed; color: #3e3e3e; text-align: left}
+table.dbk th:last-child {text-align: right}
+table.dbk th, table.dbk td {padding: 8px 14px}
