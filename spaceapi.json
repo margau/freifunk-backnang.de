@@ -1,8 +1,8 @@
 {
     "api": "0.13",
     "space": "Chaostreff Backnang",
-    "logo": null,
-    "url": "https://digitales-backnang.de/",
+    "url": "https://hacknang.de.de",
+    "logo": "https://hacknang.de/images/ctbk.png",
     "location": {
         "address": "dasWohnzimmer, Willy-Brandt-Platz 2, 71522 Backnang, Germany",
         "lat": 48.94862,
@@ -11,11 +11,13 @@
     "contact": {
         "issue_mail": "aW5mb0BmcmVpZnVuay1iYWNrbmFuZy5kZQ==",
         "phone": "+49 221 59619 2825",
-        "ml": "backnang@freifunk-stuttgart.de"
+        "ml": "backnang@freifunk-stuttgart.de",
+        "matrix": "#chaostreff-bk:famhahn.xyz",
+        "mumble": "mumble://p-schwarz.de/Wohnzimmer?title=Chaos-WG&version=1.2.0"
     },
     "issue_report_channels": ["issue_mail"],
     "state": {"open": null},
-    "projects": ["https://freifunk-backnang.de/"],
+    "projects": ["https://freifunk-backnang.de","https://git.p-schwarz.de/ctbk"],
     "feeds": {
         "calendar": {
             "type": "ical",
