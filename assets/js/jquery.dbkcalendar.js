@@ -5,7 +5,7 @@
 
 (function($) {
 
-    var cal_uri = "https://p-schwarz.de/test_cal/";
+    var cal_uri = "https://cloud.hacknang.de/hackcal/";
     var uri_regex = /(https?:\/\/([-\w\.]+)+(:\d+)?(\/([\w\/\-_\.]*(\?\S+)?)?)?)/ig
 
     $.getJSON(cal_uri, function(data) {
