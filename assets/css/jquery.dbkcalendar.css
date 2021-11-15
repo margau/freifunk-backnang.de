@@ -1,4 +1,10 @@
 table.dbk tr {border: 1px solid #ededed}
-table.dbk th {background: #ededed; color: #3e3e3e; text-align: left}
-table.dbk th:last-child {text-align: right}
+table.dbk th {background: #ededed; color: #3e3e3e; text-align: left; font-weight: bold}
+table.dbk th:last-child {text-align: right; font-weight: normal}
 table.dbk th, table.dbk td {padding: 8px 14px}
+table.dbk td:nth-child(-n+2) {font-weight: bold}
+@media screen and (max-width: 736px) {
+  table.dbk td { display: block; text-align: left; display: inline-block; padding: 0 14px}
+  table.dbk td:first-child {padding-top: 8px}
+  table.dbk td:last-child {padding-bottom: 8px}
+}
